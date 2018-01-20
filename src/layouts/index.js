@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import banf from './banf.jpg'; // Tell Webpack this JS file uses this image
-global.React = React;
 
 import './index.css'
 
@@ -38,13 +37,14 @@ const Header = () => (
         </div>
       </Left>
       <Right>
+        <a href="#add-class">Add Class</a>
       </Right>
     </div>
   </div>
 )
 
 const MyLinks = () => (
-  <div
+  <div id="add-class"
     style={{
       borderTop: '1px solid black',
     }}
@@ -60,7 +60,7 @@ const MyLinks = () => (
   >
 
     <div style={{margin: 'auto'}}>
-      If you would like to add a class email hassan.shaikley@gmail.com with the title, location, time, price and optionally the website. If the price is negotiable please let us know as well. 
+      If you would like to add a class email hassan.shaikley@gmail.com with the title, location, time, price and optionally the website. If the price is negotiable please let us know as well.
     </div>
 	</div>
   </div>

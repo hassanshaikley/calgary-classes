@@ -10,6 +10,15 @@
     }
   ],
   "computing": [
+
+    {
+      "title": "Pixel Academy",
+      "location": "The Bridge",
+      "time": "Once a month",
+      "price": "$10",
+      "price_negotiable": false,
+      "website": "https://www.meetup.com/pixel-academy/"
+    },
     {
       "title": "Beginner Linux",
       "location": "Community Wise Resource Center",
