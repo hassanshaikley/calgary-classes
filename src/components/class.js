@@ -33,8 +33,8 @@ export class Class extends React.Component {
           {indy_class.time}
         </h5>
         {indy_class.location} <br />
-        {indy_class.price} ---
-        {indy_class.price_negotiable && <small> Price is negotiable! </small>} <br />
+        {indy_class.price}
+        {indy_class.price_negotiable && <small> &mdash; Price is negotiable! </small>} <br />
 
         {indy_class.website && <a href={indy_class.website}>website</a>}
 
