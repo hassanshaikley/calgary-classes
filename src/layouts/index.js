@@ -37,7 +37,9 @@ const Header = () => (
         </div>
       </Left>
       <Right>
-        <a href="#add-class">Add Class</a>
+      <br />
+        <a href="#add-class"><button type="button" style={{backgroundColor: 'unset'}}><Icon name="plus" /> Add Class</button></a>
+
       </Right>
     </div>
   </div>
