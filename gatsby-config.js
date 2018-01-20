@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Hassan Shaikley Portfolio`,
-		description: `A talented Software Engineer currently Residing in Calgary AB..`
+    title: `Calgary Classes`,
+		description: `Independent and drop in classes in Calgary AB..`
   },
   plugins: [`gatsby-plugin-react-helmet`],
 	pathPrefix: `/hassanshaikley.github.io`
