@@ -1,0 +1,28 @@
+{
+  "art": [
+    {
+      "title": "Figure Drawing",
+      "location": "Rumble House - 136 8 Ave SW, Calgary",
+      "time": "Every thursday between 7pm and 10pm",
+      "price": "$10",
+      "price_negotiable": true,
+      "website" : "https://www.facebook.com/rumblehouseliveart/"
+    }
+  ],
+  "computing": [
+    {
+      "title": "Linux",
+      "location": "Community Wise Resource Center",
+      "time": "TBD",
+      "price": "$10",
+      "price_negotiable": true
+    },
+    {
+      "title": "Beginner Programming in Python",
+      "location": "Community Wise Resource Center",
+      "time": "TBD",
+      "price": "$10",
+      "price_negotiable": true
+    }
+  ]
+}

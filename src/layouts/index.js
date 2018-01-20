@@ -17,7 +17,7 @@ import {Icon} from 'react-fa'
 const Header = () => (
   <div
     style={{
-      background: 'lavender',
+      borderBottom: '1px solid black',
     }}
   >
     <div
@@ -31,14 +31,13 @@ const Header = () => (
     >
       <Left>
         <h1 style={{ margin: 0 }}>
-        Hassan Shaikley
+        Calgary Classes
         </h1>
         <div id="left-small">
-        Software Engineer
+        Independent Educational Resources in Calgary
         </div>
       </Left>
       <Right>
-      Full Stack experience in Node, React and Ruby on Rails
       </Right>
     </div>
   </div>
@@ -47,7 +46,7 @@ const Header = () => (
 const MyLinks = () => (
   <div
     style={{
-      background: '#9696D4',
+      borderTop: '1px solid black',
     }}
   >
   <div
@@ -61,21 +60,7 @@ const MyLinks = () => (
   >
 
     <div style={{margin: 'auto'}}>
-      <div style={{width: '33%', float: 'right', textAlign: 'center'}}>
-        <a style={{color: 'rgba(0,0,0,.8)', fontSize: '50px'}} href="http://github.com/hassanshaikley">
-        <Icon name="github" />
-        </a>
-      </div>
-      <div style={{width: '33%', float: 'right', textAlign: 'center'}}>
-        <a style={{color: 'rgba(0,0,0,.8)', fontSize: '50px'}} href="https://www.linkedin.com/in/hassan-shaikley-88317653/">
-        <Icon name="linkedin" />
-        </a>
-      </div>
-      <div style={{width: '33%', float: 'right', textAlign: 'center'}}>
-        <a style={{color: 'rgba(0,0,0,.8)', fontSize: '50px'}} href="mailto:hassan.shaikley@gmail.com?Subject=Noticed%20Your%20Portfolio" target="_top">
-        <Icon name="envelope" />
-        </a>
-      </div>
+      If you would like to add a class email hassan.shaikley@gmail.com with the title, location, time, price and optionally the website. If the price is negotiable please let us know as well. 
     </div>
 	</div>
   </div>
@@ -119,8 +104,6 @@ const TemplateWrapper = ({ children }) => (
     />
     <Header />
       {children()}
-      <PreFooter />
-
 		<MyLinks />
 
 {		//<Footer />

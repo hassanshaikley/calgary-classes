@@ -4,8 +4,8 @@ import Link from 'gatsby-link'
 import {Left} from '../components/left';
 import {Right} from '../components/right';
 
-const projects = require('./projects.json')
-import { Project } from '../components/project'
+const classes = require('./classes.json')
+import { Class } from '../components/class'
 const IndexPage = () => (
   <div
     style={{
@@ -23,23 +23,40 @@ const IndexPage = () => (
     }}
   >
     <Left>
-  		<h1>Projects and Work</h1>
+  		<h1>Art</h1>
       <div id="left-small">
-      Websites, Games, Data Visualizations, APIs, Prototypes
       </div>
     </Left>
     <Right>
 		<ul>
     {
-      projects.map(project => {
+      classes.art.map(art_class => {
         return (
-          <li key={project.description} style={{marginBottom: '25px'}}>
-            <Project project={project} />
+          <li key={`${art_class.title}-${art_class.location}`} style={{marginBottom: '25px'}}>
+            <Class indy_class={art_class} />
           </li>
       )
       })
     }
 		</ul>
+    </Right>
+    <Left>
+      <h1>Computing</h1>
+      <div id="left-small">
+      </div>
+    </Left>
+    <Right>
+    <ul>
+    {
+      classes.computing.map(computing_class => {
+        return (
+          <li key={`${computing_class.title}-${computing_class.location}`} style={{marginBottom: '25px'}}>
+            <Class indy_class={computing_class} />
+          </li>
+      )
+      })
+    }
+    </ul>
     </Right>
     </div>
 
